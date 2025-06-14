@@ -1,0 +1,501 @@
+/* ye wala box amazon logo ka h  */
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+.logo{
+    background-image: url("amazon-logo1.webp");
+    height: 50px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 2px solid transparent ;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 3%;
+}
+
+/* yaha se address box start ho gya */
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 13px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* yaha se search box start h */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffb700;
+    width: 620px;
+    height: 35px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+/* yaha se USA Icon Start Hai */
+.lang{
+    display: flex;
+    align-items: center;
+}
+.lang2{
+    background-color: #0F1111;
+    color: #f3f3f3;
+    border: none;
+    height: 50px;
+    font-weight: 750;
+}
+/* yaha se sign in start h */
+span{
+    font-size: 0.85rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* yaha se cart start h */
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+/* yaha se panel start h */
+.panel{
+    display: flex;
+    height: 40px;
+    background: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content:flex-start;
+}
+.panel-all{
+    margin-left: 10px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 1rem;
+}
+/* yaha se hero section start h */
+.hero-section{
+    background-image: url("cover.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 96.87%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color:#2162a1;
+}
+/* Yahan se Shop Section Start */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #2162a1;
+}
+/* yahan se shop-section1 start h */
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box1{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-img1{
+    height: 130px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#p1{
+    color: #2162a1;
+   padding-right: 130px;
+   font-size: .95rem;
+   padding-top: 25px;
+}
+.box-img1 p{
+    padding-top: 135px;
+    color: #0F1111;
+    font-size: 0.85rem;
+}
+/* yahan se shop-section2 start h */
+.shop-section2{
+    display: flex;
+    background-color: #e2e7e6;
+    margin-left: 5px;
+}
+.Box2{
+    height: 280px;
+    width: 96.5%;
+    background-color: white;
+    padding: 20px 0px 15px 10px;
+    margin: 20px 0px 25px 25px;
+}
+.Box3{
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+}
+#p2{
+    color: #2162a1;
+   padding-right: 210px;
+   font-size: .95rem;
+   padding-top: 25px;
+}
+#h1{
+    margin-right: 9px;
+    font-size: 1.4rem;
+}
+#h2{
+    margin-right: 80px;
+    font-size: 1.4rem;
+}
+#h3{
+    margin-left: 15px;
+    font-size: 1.4rem;
+}
+#h4{
+    margin-left: 15px;
+    font-size: 1.4rem;
+}
+.box-img2{
+    width: 90.85%;
+    height: 35%;
+    background-size: cover;
+    background-position: center;
+}
+.box1 .box-img3{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+}
+#fur .box-img1{
+    height: 28%;
+    margin-top: 20px;
+}
+#fur p{
+    margin-top: -18px;
+}
+#fur #p2{
+    padding-right: 165px;
+    padding-top: 52px;
+}
+.box1 .box-img2{
+    margin-top: 11px;
+}
+.box1 .box-img3{
+    margin-top: 42px;
+}
+#kit p{
+    margin-top:105px;
+    font-size: .85rem;
+}
+.box1 .box-img2 p{
+    margin-top: 145px;
+    font-size: .85rem;
+}
+#kitchen #p2{
+    padding-right: 105px;
+    padding-top: 45px;
+}
+/* yahan se sign in box start h  */
+.signn{
+    height: 150px;
+    border: .5px solid rgb(172, 171, 171);
+    border-radius: 2px;
+    display: block;
+}
+.sign-h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.sign-button{
+    background-color:#ffd814;
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    border: transparent;
+    margin-left:800px ;
+    margin-top: 10px;
+}
+.signn p{
+ width: 100%;
+ margin-left: 852px;
+ margin-top: 5px;
+ font-size: 0.75rem;
+}
+.sign-a{
+    color: #2162a1;
+}
+.sign-button:hover{
+    background-color: #ffce54;
+}
+.back-to-top button{
+    height: 50px;
+    width: 100%;
+    background-color: #3c4f63;
+    color: white;
+}
+/* yahan se footer1 start h  */
+.footer1{
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: #dddddd;
+    padding: 50px 170px 0px 170px;
+}
+.footer1 a{
+    font-size: 0.85rem;
+}
+.fd1{
+    width: 140px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+}
+.fd2{
+    width: 170px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fd3{
+    width: 220px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fd4{
+    width: 140px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 180px;
+}
+/* yahan se footer 2 start h */
+.footer2{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:#222f3d;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+    border:1px solid  #2c3e50;
+}
+.footer2 .english{
+    background-color: #222f3d;
+    color: white;
+    border: transparent;
+    font-size: 0.7rem;
+}
+#gl{
+    color: white;
+    font-size: 14px;
+}
+.language1{
+    border: 1px solid  rgb(172, 171, 171);
+    display: flex;
+    height: 25px;
+    width: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2px;
+}
+.azlogo{
+    height: 60px;
+    width: 150px;
+    background-image:url(amazon-logo1.webp);
+    background-size: cover;
+    background-position: center;
+    margin-right: 65px;
+    margin-top: 10px;
+}
+.usd{
+    color:white;
+    display: flex;
+    height: 25px;
+    width: 130px;
+    border: 1px solid  rgb(172, 171, 171);
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.usa{
+    color:white;
+    display: flex;
+    height: 25px;
+    width: 130px;
+    border: 1px solid  rgb(172, 171, 171);
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 10px; 
+    border-radius: 2px;
+}
+.footer3{
+    height: 100px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: .85rem;
+}
+.lp{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    margin-top: -60px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.footer3 a:hover{
+    text-decoration: underline;
+}
+/* yaha se last wala footer h */
+.footer {
+  padding: 40px 430px 20px 450px;
+  background-color: #131A22;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding-bottom: 30px;
+  border-bottom: 1px solid #3a4553;
+  line-height: 110%;
+}
+.footer-column{
+    display: inline;
+    line-height: 110%;
+    width: 100px;
+    line-height: 110%;
+    padding-bottom: 9px;
+}
+
+.footer-column a {
+  color: #dddddd;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-column p {
+  margin: 0 0 16px;
+  font-size: 12px;
+  font-family: inherit;
+  color: #999999;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
